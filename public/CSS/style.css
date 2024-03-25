@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+/* ===========================================
+ * 共通
+ * ======================================== */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #24292E;
+}
+
+main {
+    text-align: center;
+}
+
+#header,
+#footer {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 100px;
+}
+
+#index,
+#confirm,
+#complete {
+    border: 1px solid #C8C8C8;
+    justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 80px;
+
+}
+
+.contents {
+    justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.contents dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 0 30px 0 30px
+}
+
+.contents dt {
+    text-align: left;
+    width: 30%;
+}
+
+.contents dd {
+    margin-bottom: 10px;
+    text-align: left;
+    width: 70%;
+}
+
+.contents dd input,
+textarea {
+    border: solid 1px #C8C8C8;
+    padding: 10px;
+    width: 100%;
+}
+
+.contents dd textarea {
+    height: 100px;
+}
+
+/* ===========================================
+ * ボタン
+ * ======================================== */
+
+.button button,
+.confirm_button button {
+    background-color: #24292E;
+    border: solid 1px #24292E;
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.button button:hover,
+.confirm_button button:hover {
+    background-color: #fff;
+    border-color: #24292E;
+    color: #24292E;
+}
+
+.detail_button button {
+    border-bottom: solid 1px #24292E;
+    margin: 30px;
+}
+
+/* ===========================================
+ * バリデーションメッセージ
+ * ======================================== */
+
+.validation_message {
+    color: #ff0000;
+}
+
+/* ===========================================
+ * 入力内容確認画面
+ * ======================================== */
+
+.confirm_message p {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.message {
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+/* ===========================================
+ * お問い合わせ一覧画面
+ * ======================================== */
+
+.table {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.table th,
+td {
+    border-bottom: solid 1px #C8C8C8;
+    height: 50px;
+}
+
+th .name,
+td .name {
+    width: 15%;
+}
+
+th.contents,
+td .contents {
+    width: 70%;
+}
+
+th .date,
+td .date {
+    width: 15%;
+}
